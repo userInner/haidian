@@ -4,7 +4,7 @@ author_github: "userInner"
 language: "zh"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-iteration: "v3.0"
+iteration: "v4.0"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以百年京张、中关村创新史和面向2030的人机自主权为主线，建设一条公共记忆可积累、个人数据可退出、创新收益可共享的AI城市廊道。"
@@ -14,9 +14,9 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 # 京张双记 / DOUBLE MEMORY JINGZHANG
 
-> **v3.0 核心判断：** 城市设计必须让评委沿一条“证明里程”从总体带走到日常路线、同意剖面和实施合同。方案因此把 11.4 平方公里临时总体范围、三处日常无账号路线、60 × 14 米同意剖面与 180 天放行闸门串为同一条空间证据链；所有法定控制仍保持 `unknown`，现场结果仍为 `not_field_tested / HOLD`。
+> **v4.0 核心判断：** 城市设计必须同时经得起空间阅读与证据追问。新版以细颗粒街区肌理、京张公共创新脊、六组东西缝合、三处重点区日常小总平和连续公共界面剖面，承载“总体带—日常路线—同意剖面—实施合同”这条证明里程；所有法定控制仍保持 `unknown`，现场结果仍为 `not_field_tested / HOLD`。
 
-| 评审维度 | v3.0 的实质深化 | 核验入口 |
+| 评审维度 | v4.0 的实质深化 | 核验入口 |
 | --- | --- | --- |
 | 任务契合与原创性 | “证明里程”把公共记忆脊、日常路线、记忆边界护照和实施闸门组织成一条可追读的方法 | `proof-mile-spatial-atlas.json` |
 | AI 与规划创新 | AI 不再是设备清单，而是受 D0—D4 数据等级、删除回执、物理停止和独立复核约束的城市服务 | `forgetfulness-budget.json`、离线审计脚本 |
@@ -24,7 +24,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 | 公共利益 | 三个重点区分别形成无需账号、保留普通等价服务的日常路线，由六类人物逐路线测试 | `key-area-daily-routes.json` |
 | 风险与表达 | 总图与控制账本把 known、design_target、unknown、HOLD 分层显示，避免图面精度掩盖证据缺口 | 第 1、3—5 张展板、空间审计脚本 |
 
-![证明里程空间图谱：总体带—日常路线—同意剖面—实施合同](assets/figures/proof-mile-spatial-atlas.png)
+![证明里程空间图谱：总体带—日常路线—同意剖面—实施合同](assets/boards/board-01.jpg)
 
 ## 设计依据与资料清单
 
@@ -135,9 +135,9 @@ v2.0 将抽象梯度压成一个可异地复用、现场再校准的 60 米 × 1
 
 三个重点区均采用“保留—轻改—可逆试验—审查扩展”路径；具体建筑规模、拆改和工程线位须待官方边界、权属和现场调查确认。
 
-![三处重点区日常路线：普通入口—无AI路径—人工服务—主动选择—普通出口](assets/figures/key-area-daily-routes.png)
+![三处重点区日常路线：普通入口—无AI路径—人工服务—主动选择—普通出口](assets/boards/board-04.jpg)
 
-v3.0 不再只用三张效果图代表重点区，而是为每处重点区登记一条真实日常目的链：众智园为“上班—午间休憩—公交换乘”，AI 原点为“居住—学习—社区服务”，大钟寺为“地铁换乘—普惠服务—国际交流”。每条路线均从普通入口开始，以无需账号的无 AI 路径作为底线，只有主动选择后才进入辅助或测试空间，并始终保留人工服务与普通出口。路线是 `design_target`，尚未经过现场踏勘与使用者测试。[depth:key_area_urban_design]
+v4.0 将三条路线落到三张项目绑定的小总平：众智园为“上班—午间休憩—公交换乘”，AI 原点为“居住—学习—社区服务”，大钟寺为“地铁换乘—普惠服务—国际交流”。每条路线均从普通入口开始，以无需账号的无 AI 路径作为底线，只有主动选择后才进入辅助或测试空间，并始终保留人工服务与普通出口。图中街区肌理属于概念表达，路线是 `design_target`，尚未经过现场踏勘与使用者测试。[depth:key_area_urban_design]
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
@@ -170,7 +170,7 @@ v2.0 增加六类人物路线测试，而不是只做需求画像：无智能手
 
 ## 用地、建筑规模与拆改留方案
 
-![建筑与公共界面工具箱：保留、轻改、可逆植入、新建最后选择](assets/figures/building-public-edge-kit.png)
+![连续公共界面剖面：保留修缮、开放首层、可逆植入与无账号绕行](assets/boards/board-05.jpg)
 
 临时用地结构将研发创新、产业商业、社区服务和绿地开敞空间组织为混合走廊，避免形成纯办公园区。完整功能覆盖由 land_use.geojson 表达；绿地设计面积为 1,408,600.768 平方米，占临时提交边界 12.3423%；公共空间设计面积为 836,345.643 平方米，占 7.3281%。这些是概念图层复算值，不是现状统计或控规指标。[metric:green_ratio] [metric:public_space_ratio]
 

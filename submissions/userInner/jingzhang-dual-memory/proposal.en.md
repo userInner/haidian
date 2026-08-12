@@ -4,7 +4,7 @@ author_github: "userInner"
 language: "en"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-iteration: "v3.0"
+iteration: "v4.0"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "A human-directed AI urban corridor where public memory accumulates, personal data can expire, and the benefits of innovation are shared."
@@ -14,9 +14,9 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 # DOUBLE MEMORY JINGZHANG
 
-> **v3.0 thesis:** A jury should be able to follow one “Proof Mile” from the belt to a daily route, consent section, and implementation contract. The 11.4 km² provisional area, three account-free daily routes, 60 × 14 m consent section, and 180-day gates now form one spatial evidence chain. Statutory controls remain `unknown`; field results remain `not_field_tested / HOLD`.
+> **v4.0 thesis:** Urban design must survive both spatial reading and evidence review. A fine-grained urban fabric, Jing-Zhang civic spine, six cross-stitches, three key-area daily plans, and one continuous public-edge section now carry the Proof Mile from belt to route, consent section, and implementation contract. Statutory controls remain `unknown`; field results remain `not_field_tested / HOLD`.
 
-| Review dimension | Material v3.0 advance | Verification entry |
+| Review dimension | Material v4.0 advance | Verification entry |
 | --- | --- | --- |
 | Alignment and originality | The Proof Mile connects the public-memory spine, daily routes, passports, and implementation gates into one legible method | `proof-mile-spatial-atlas.json` |
 | AI-planning innovation | AI becomes a civic service constrained by D0–D4 data classes, deletion receipts, physical stops, and independent review | `forgetfulness-budget.json`; offline audit |
@@ -24,7 +24,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 | Public interest | Each key area has an account-free daily route with an ordinary equivalent, tested separately by six personas | `key-area-daily-routes.json` |
 | Risk and expression | The atlas and control ledger separate known facts, design targets, unknown controls, and HOLD decisions | boards 01 and 03–05; spatial audit |
 
-![Proof Mile spatial atlas: belt—daily route—consent section—implementation contract](assets/figures/proof-mile-spatial-atlas.en.png)
+![Proof Mile spatial atlas: belt—daily route—consent section—implementation contract](assets/boards/board-01.en.jpg)
 
 ## Design Basis and Source List
 
@@ -130,9 +130,9 @@ The area combines station walking links, account-free public services, multiling
 
 All three areas follow retain, light retrofit, reversible trial, review, then expansion. Building scale, demolition, and engineering alignments await official boundaries, ownership data, and fieldwork.
 
-![Three key-area daily routes: ordinary entry—no-AI path—staffed service—opt-in threshold—ordinary exit](assets/figures/key-area-daily-routes.en.png)
+![Three key-area daily routes: ordinary entry—no-AI path—staffed service—opt-in threshold—ordinary exit](assets/boards/board-04.en.jpg)
 
-v3.0 registers a real daily-purpose chain for each key area instead of treating three renderings as the design: work—lunch break—bus transfer at Zhongzhiyuan; home—learning—community service at AI Origin; and metro transfer—inclusive service—international exchange at Dazhongsi. Each route begins at an ordinary entry, treats an account-free no-AI path as the baseline, enters assistance or testing only after an active choice, and retains staffed service and an ordinary exit. These routes are `design_target` and have not yet been field-walked or user-tested. [depth:key_area_urban_design]
+v4.0 places each daily-purpose chain on a project-bound key-area plan: work—lunch break—bus transfer at Zhongzhiyuan; home—learning—community service at AI Origin; and metro transfer—inclusive service—international exchange at Dazhongsi. Each route begins at an ordinary entry, treats an account-free no-AI path as the baseline, enters assistance or testing only after an active choice, and retains staffed service and an ordinary exit. Urban grain is illustrative; routes remain `design_target` and have not yet been field-walked or user-tested. [depth:key_area_urban_design]
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -159,13 +159,13 @@ Twelve scenarios form service-data-human-fallback loops:
 
 Every scenario registers operator, user, data, retention, human fallback, stop condition, and post-trial evidence. Scenarios 03, 04, 05, 10, and 11 are auditable industrial test-and-validation cases. [source:PIPL] [source:CAC-AGENT-GOVERNANCE]
 
-v3.0 connects route tests directly to the three daily routes. An older resident without a smartphone, wheelchair user, blind-cane or guide-dog user, parent with a child, night-shift service worker, and visitor with limited Chinese must each complete passage, comprehension, human takeover, and complaint tasks. Ordinary-route completion and human-takeover success must be 100%; critical-information comprehension at least 80%; no group may retain an unresolved critical issue. Failure means `HOLD`. These are release thresholds, not current performance; status is `not_field_tested`. See `visual/assets/key-area-daily-routes.json` and `public-interest-route-tests.json`.
+v4.0 connects route tests directly to the three daily plans. An older resident without a smartphone, wheelchair user, blind-cane or guide-dog user, parent with a child, night-shift service worker, and visitor with limited Chinese must each complete passage, comprehension, human takeover, and complaint tasks. Ordinary-route completion and human-takeover success must be 100%; critical-information comprehension at least 80%; no group may retain an unresolved critical issue. Failure means `HOLD`. These are release thresholds, not current performance; status is `not_field_tested`. See `visual/assets/key-area-daily-routes.json` and `public-interest-route-tests.json`.
 
 Three pilgrimage landmarks are useful governance interfaces rather than monuments: the Shared Memory Platform at Qinghuayuan, the Public AI Register Tower at the AI Origin Community, and the Red-Light Trial Court at Zhongzhiyuan. Their value lies in public rules, not spectacle. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
-![Building and public-edge kit: retain, light retrofit, reversible insert, and new build as the last option](assets/figures/building-public-edge-kit.en.png)
+![Continuous public-edge section: retain and repair, open ground floor, reversible insert, and account-free bypass](assets/boards/board-05.en.jpg)
 
 The provisional land structure mixes R&D, industry and commerce, community services, and open space to avoid a single-use office district. The conceptual green-space layer measures 1,408,600.768 square metres, or 12.3423% of the submitted provisional boundary; the public-space layer measures 836,345.643 square metres, or 7.3281%. These are recalculated design-layer values, not existing-condition statistics or statutory controls. [metric:green_ratio] [metric:public_space_ratio]
 
