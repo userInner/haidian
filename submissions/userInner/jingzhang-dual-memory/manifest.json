@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "5a52553fcd77abf07721a5ac84aaf8752bc0bfd1cc875ea3d80c97d913e8becf"
+      "sha256": "1d9d02bb58f155640516749c27bac55816afe55c86dc7a5bd95cee54a885cc74"
     },
     {
       "path": "agent.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "cee0b867b5e135cd42d8635f906b91ba3c361db830b76a0478c890e0aee59f9c"
+      "sha256": "74c4c58b92190e713d30c48f097f1bae28497fd5779f7067d836ef4bb984481b"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "fdf655cec42f9dcef5219d3601cab18e971be841aae398d7b23b4e0f83d936eb"
+      "sha256": "2c7927c791afa6af61613f35487d581a50e5c38da24590c8114a7353a578e373"
     },
     {
       "path": "report/narrative.md",
@@ -100,21 +100,21 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "62136adcb0b7260dc996ab9d1da59c5925870b1d9024958598af7ac23089d572"
+      "sha256": "e170d2374784d73be627a0f2ce4aaa6fdfc0be00fc0274c02010957b861d1ed0"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "ed720debef32ddf0fedfdd15caeb89960571d24bff277b32ab56cacf1fc3658a"
+      "sha256": "70c85624db03b12fc4099ab77b3954a5e0c040076a06b25b0eff85826dca1f3e"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "88a79bd39793c45b15f46b02ef68a48db249e755ed95329ac82ef381113913c5"
+      "sha256": "1ec4ffee5d9f046880806fa50a74164ed6c10e642efa4ae22a3f29e46daa2d2a"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -274,7 +274,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "11a2ca45b137d06fc59b04b75fa9ef0b74a91daf71ce7e3ac02fdbf5a6b0938b"
+      "sha256": "b7a1071862f7784a2e1e07261b7b43323867520a5657c0639ef2eeda77d6fb10"
     },
     {
       "path": "report/proposal.en.html",
@@ -282,7 +282,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "724738a66d55860207b44627e28f5c186c703623b03c540bc3006c3df199ad5c"
+      "sha256": "2e9e3646fe88044ae0c30d717617a0e1f4e05b13ee3c24879968fd2be38a390b"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -290,7 +290,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "01c90508755cac719ae20fea7c219df59cf09d8123a165e42cfb1621635f6e05"
+      "sha256": "a7a148250436f32723714984d3f01c553ae699217cacca1ef0735e7ba00d8774"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -298,7 +298,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "3b51b1010e3a9dd7161386662307c3a9ee23dff37211b6c825e1c0ee6e291628"
+      "sha256": "c20c9979047c5af30c2db54cc8f6b762d31bf3876e179d2f0f7d61c0fb63f8cd"
     },
     {
       "path": "visual/index.en.html",
@@ -306,7 +306,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "a9836ea26dae99dcde9f4b359ba48c2f3e225760de8fdbe2879acf44066885b1"
+      "sha256": "666ad0099295722402cce90a60dbbbeef175ca59917045490f9135a8d7a5be67"
     },
     {
       "path": "assets/figures/key-areas.en.png",
@@ -406,6 +406,75 @@
       "role": "visualization",
       "required": true,
       "sha256": "34ed4f712c80d8893a10a17a0e515c117f1a0507c71dffc459ab24b6214931a9"
+    },
+    {
+      "path": "assets/figures/proof-mile-spatial-atlas.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "e7b66ce673e53ab4d784529960af73efb50e4bd5b48112a21c892e2b7e05ba3d"
+    },
+    {
+      "path": "assets/figures/proof-mile-spatial-atlas.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/proof-mile-spatial-atlas.png",
+      "sha256": "a38d4e8671dcdfab84a0367437cc39b2093b137e90c7b31bab378c3af846a7c0"
+    },
+    {
+      "path": "assets/figures/key-area-daily-routes.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "b9b006efc358cae397f2ed77a994f71cff61d7391a428eafff64df226d780e8b"
+    },
+    {
+      "path": "assets/figures/key-area-daily-routes.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/key-area-daily-routes.png",
+      "sha256": "7f8b75f71998b340ebd8c7b8185858168a596fa7d0b88b9ef8615f7725a9794f"
+    },
+    {
+      "path": "assets/figures/building-public-edge-kit.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "zh",
+      "sha256": "34882da48fb2726b201a58bbc3d2fbfd877e5e666a885877c67ce7e13dca72ad"
+    },
+    {
+      "path": "assets/figures/building-public-edge-kit.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/building-public-edge-kit.png",
+      "sha256": "727ba98293da91ee59a11bed9f80b79f1c7cf65c52982e88e845c701186a9aa2"
+    },
+    {
+      "path": "visual/assets/proof-mile-spatial-atlas.json",
+      "role": "visualization",
+      "required": true,
+      "sha256": "ae4f6a7532c07e564e5dddc8a29044a121cc6b05416802f04da078fd0af85bb8"
+    },
+    {
+      "path": "visual/assets/key-area-daily-routes.json",
+      "role": "visualization",
+      "required": true,
+      "sha256": "f3632fc255d84b79a36c8cae1391fb672ea4de76291088244d4a0384b6ed626a"
+    },
+    {
+      "path": "visual/assets/building-interface-kit.json",
+      "role": "visualization",
+      "required": true,
+      "sha256": "a94b7843bfbb3cac24e81c942fe25022dfceda9b9d53b8a75e6b56f7cce23c09"
+    },
+    {
+      "path": "visual/assets/run-spatial-atlas-audit.js",
+      "role": "visualization",
+      "required": true,
+      "sha256": "6c9ed80ba36d55470ec39ed9ea60507dd1ed2b3a23dc051994aa3b3e77ca1fe9"
     }
   ],
   "validation_claim": {
